@@ -14,10 +14,13 @@
 		20770BD928DAAC33009238A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20770BD828DAAC33009238A7 /* Assets.xcassets */; };
 		20770BDC28DAAC33009238A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20770BDA28DAAC33009238A7 /* LaunchScreen.storyboard */; };
 		20770BDF28DAAC33009238A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20770BDE28DAAC33009238A7 /* main.m */; };
+		20770BE728DAAD93009238A7 /* SockService.m in Sources */ = {isa = PBXBuildFile; fileRef = 20770BE628DAAD93009238A7 /* SockService.m */; };
+		20770C1628DAE5F2009238A7 /* NSString+SwitchData.m in Sources */ = {isa = PBXBuildFile; fileRef = 20770C1528DAE5F2009238A7 /* NSString+SwitchData.m */; };
+		20770C1928DAE62F009238A7 /* NSData+SwitchData.m in Sources */ = {isa = PBXBuildFile; fileRef = 20770C1828DAE62F009238A7 /* NSData+SwitchData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		20770BC928DAAC31009238A7 /* Sock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20770BC928DAAC31009238A7 /* SockS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SockS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20770BCC28DAAC32009238A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20770BCD28DAAC32009238A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		20770BCF28DAAC32009238A7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +32,12 @@
 		20770BDB28DAAC33009238A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20770BDD28DAAC33009238A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20770BDE28DAAC33009238A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20770BE528DAAD93009238A7 /* SockService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SockService.h; sourceTree = "<group>"; };
+		20770BE628DAAD93009238A7 /* SockService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SockService.m; sourceTree = "<group>"; };
+		20770C1428DAE5F2009238A7 /* NSString+SwitchData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SwitchData.h"; sourceTree = "<group>"; };
+		20770C1528DAE5F2009238A7 /* NSString+SwitchData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SwitchData.m"; sourceTree = "<group>"; };
+		20770C1728DAE62F009238A7 /* NSData+SwitchData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+SwitchData.h"; sourceTree = "<group>"; };
+		20770C1828DAE62F009238A7 /* NSData+SwitchData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+SwitchData.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +62,7 @@
 		20770BCA28DAAC31009238A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20770BC928DAAC31009238A7 /* Sock.app */,
+				20770BC928DAAC31009238A7 /* SockS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +76,12 @@
 				20770BD028DAAC32009238A7 /* SceneDelegate.m */,
 				20770BD228DAAC32009238A7 /* ViewController.h */,
 				20770BD328DAAC32009238A7 /* ViewController.m */,
+				20770BE528DAAD93009238A7 /* SockService.h */,
+				20770BE628DAAD93009238A7 /* SockService.m */,
+				20770C1428DAE5F2009238A7 /* NSString+SwitchData.h */,
+				20770C1528DAE5F2009238A7 /* NSString+SwitchData.m */,
+				20770C1728DAE62F009238A7 /* NSData+SwitchData.h */,
+				20770C1828DAE62F009238A7 /* NSData+SwitchData.m */,
 				20770BD528DAAC32009238A7 /* Main.storyboard */,
 				20770BD828DAAC33009238A7 /* Assets.xcassets */,
 				20770BDA28DAAC33009238A7 /* LaunchScreen.storyboard */,
@@ -79,9 +94,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20770BC828DAAC31009238A7 /* Sock */ = {
+		20770BC828DAAC31009238A7 /* SockS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20770BE228DAAC33009238A7 /* Build configuration list for PBXNativeTarget "Sock" */;
+			buildConfigurationList = 20770BE228DAAC33009238A7 /* Build configuration list for PBXNativeTarget "SockS" */;
 			buildPhases = (
 				20770BC528DAAC31009238A7 /* Sources */,
 				20770BC628DAAC31009238A7 /* Frameworks */,
@@ -91,9 +106,9 @@
 			);
 			dependencies = (
 			);
-			name = Sock;
+			name = SockS;
 			productName = Sock;
-			productReference = 20770BC928DAAC31009238A7 /* Sock.app */;
+			productReference = 20770BC928DAAC31009238A7 /* SockS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 20770BC428DAAC31009238A7 /* Build configuration list for PBXProject "Sock" */;
+			buildConfigurationList = 20770BC428DAAC31009238A7 /* Build configuration list for PBXProject "SockS" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20770BC828DAAC31009238A7 /* Sock */,
+				20770BC828DAAC31009238A7 /* SockS */,
 			);
 		};
 /* End PBXProject section */
@@ -147,7 +162,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				20770BD428DAAC32009238A7 /* ViewController.m in Sources */,
+				20770BE728DAAD93009238A7 /* SockService.m in Sources */,
 				20770BCE28DAAC32009238A7 /* AppDelegate.m in Sources */,
+				20770C1628DAE5F2009238A7 /* NSString+SwitchData.m in Sources */,
+				20770C1928DAE62F009238A7 /* NSData+SwitchData.m in Sources */,
 				20770BDF28DAAC33009238A7 /* main.m in Sources */,
 				20770BD128DAAC32009238A7 /* SceneDelegate.m in Sources */,
 			);
@@ -342,7 +360,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20770BC428DAAC31009238A7 /* Build configuration list for PBXProject "Sock" */ = {
+		20770BC428DAAC31009238A7 /* Build configuration list for PBXProject "SockS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20770BE028DAAC33009238A7 /* Debug */,
@@ -351,7 +369,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20770BE228DAAC33009238A7 /* Build configuration list for PBXNativeTarget "Sock" */ = {
+		20770BE228DAAC33009238A7 /* Build configuration list for PBXNativeTarget "SockS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20770BE328DAAC33009238A7 /* Debug */,
